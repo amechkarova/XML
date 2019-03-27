@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalog SYSTEM "catalog.dtd">
+<?xml-stylesheet type="text/xsl" href="catalog.xsl"?>
+<catalog>
+	<regions>
+		<region id="r01">
+			<name>West Thracian Lowland</name>
+		</region>
+		<region id="r02">
+			<name>East Thracian Lowland</name>
+		</region>
+		<region id="r03">
+			<name>Struma valley</name>
+		</region>
+		<region id="r04">
+			<name>North Black Sea region</name>
+		</region>
+	</regions>
+	<wineries>
+		<winery id="w01" region_id="r01" image="karabunar_winery" logo="karabunar_logo">
+			<name>Karabunar Winery</name>
+			<year>2008</year>
+			<vineyards>40 hectares</vineyards>
+			<location>Karabunar Village</location>
+			<owner>Stoyan Zhelev</owner>
+			<owner>Ivaylo Zheglov</owner>
+			<wine_maker>Nadezhda Dulgherska</wine_maker>
+			<brand>Bulgarian Heritage</brand>
+			<annual_production>45 000 bottles</annual_production>
+		</winery>
+		<winery id="w02" region_id="r01" image="asenovgrad_winery" logo="asenovgrad_logo">
+			<name>Asenovgrad Winery</name>
+			<year>1947</year>
+			<vineyards>200 hectares</vineyards>
+			<location>Asenovgrad</location>
+			<owner>Rosen Chatalbashev</owner>
+			<wine_maker>Lalo Geshev</wine_maker>
+			<brand>Ornament</brand>
+			<brand>Mavrud Asenovgrad</brand>
+			<brand>Mavrud Reserve</brand>
+			<brand>Cabernet Sauvignon</brand>
+			<brand>Merlo</brand>
+			<brand>Merlo Reserve</brand>
+			<brand>Monastery shushukane</brand>
+			<annual_production>3 500 000 bottles</annual_production>
+		</winery>
+		<winery id="w03" region_id="r02" image="domaineBoyar_winery" logo="domaineBoyar_logo">
+			<name>Domaine Boyar</name>
+			<year>1991</year>
+			<vineyards>200 hectares</vineyards>
+			<location>Sliven</location>
+			<owner>Santa Ana Ventures</owner>
+			<wine_maker>Vladimir Vluchkov</wine_maker>
+			<wine_maker>Kapka Georgieva</wine_maker>
+			<wine_maker>Dimitar Panov</wine_maker>
+			<wine_maker>Doychin Andreev</wine_maker>
+			<brand>Quantum</brand>
+			<brand>Boyar</brand>
+			<brand>Ars Longa</brand>
+			<brand>Chanson</brand>
+			<brand>Code</brand>
+			<brand>Marc Girardelli</brand>
+			<brand>Next Twenty Years</brand>
+			<brand>Domaine Boyar Platinum</brand>
+			<brand>Solitaire</brand>
+			<branch name="Blue Rocks" id="w001" winery_id="w03">
+				<year>1999</year>
+				<description>Winery "Blue Rocks" is situated next to the landmark - Blue Rocks, at the foot of Stara  Planina, which eventually became its name.
+			The region of the Thracian Plain, where it is located, is famous for the production of high quality red wines.</description>
+			</branch>
+			<branch name="Korten" id="w002" winery_id="w03">
+				<year>2003</year>
+				<description>The little boutique winery "Korten" is located in the wine-growing region "Thracian Lowland". 
+			It is known with the methods of micro-vinification and its emblematic red wines.</description>
+			</branch>
+			<annual_production>10 000 000 bottles</annual_production>
+		</winery>
+		<winery id="w04" region_id="r02" image="midalidare_winery" logo="midalidare_logo">
+			<name>Midalidare Estate</name>
+			<year>2009</year>
+			<vineyards>165 hectares</vineyards>
+			<location>Mogilovo Village</location>
+			<owner>Yevgeny Yusupov</owner>
+			<wine_maker>Alexander Aleksiev</wine_maker>
+			<wine_maker>Nikolay Katerov</wine_maker>
+			<brand>Midalidare</brand>
+			<brand>Grand Vintage</brand>
+			<brand>Carpe Diem</brand>
+			<brand>Silver Angel</brand>
+			<annual_production>330 000 bottles</annual_production>
+		</winery>
+		<winery id="w05" region_id="r02" image="angelEstate_winery" logo="angelEstate_logo">
+			<name>Angel's Estate</name>
+			<year>2008</year>
+			<vineyards>106 hectares</vineyards>
+			<location>Banya Village</location>
+			<owner>Ivan Angelov</owner>
+			<owner>Luka Angelov</owner>
+			<wine_maker>Alexander Velyanov</wine_maker>
+			<brand>Cattleya</brand>
+			<brand>Stallion</brand>
+			<brand>Angel</brand>
+			<brand>Deneb</brand>
+		</winery>
+		<winery id="w06" region_id="r03" image="logodaj_winery" logo="logodaj_logo">
+			<name>LOGODAJ Winery</name>
+			<year>1994</year>
+			<vineyards>650 hectares</vineyards>
+			<location>Logodaj Village</location>
+			<owner>Malin Shirokanski</owner>
+			<owner>Nedyalko Levunliev</owner>
+			<owner>Petar Drosanski</owner>
+			<wine_maker>Svetlana Treneva</wine_maker>
+			<brand>LOGODAJ</brand>
+			<brand>Melnik</brand>
+			<brand>Nobile</brand>
+			<brand>Bijoux</brand>
+		</winery>
+		<winery id="w07" region_id="r03" image="melnik_winery" logo="melnik_logo">
+			<name>Villa Melnik</name>
+			<year>2013</year>
+			<vineyards>30 hectares</vineyards>
+			<location>Melnik City</location>
+			<owner>Nikola Zikatanov</owner>
+			<wine_maker>Rumyana Stoilova</wine_maker>
+			<brand>Aplauz</brand>
+			<brand>Bergule</brand>
+			<brand>Family Tradition</brand>
+			<brand>Young&amp;Crazy</brand>
+		</winery>
+		<winery id="w08" region_id="r04" image="sallaEstate_winery" logo="sallaEstate_logo">
+			<name>Salla Estate</name>
+			<year>2010</year>
+			<vineyards>30 hectares</vineyards>
+			<location>Blaskovo Village</location>
+			<owner>Ivan Ivanov</owner>
+			<wine_maker>Aneliya Hristakieva</wine_maker>
+			<brand>Salla Estate</brand>
+		</winery>
+	</wineries>
+	<wines>
+		<wine name="Bulgarian Heritage Mavrud" winery_id="w01" image="BG_Heritage_Mavrud">
+			<variety>Mavrud</variety>
+			<year>2015</year>
+			<colour>red</colour>
+			<price>10 lv</price>
+			<description>The wine has a dense violet colour. Intense young nose with abundant and juicy blackberry 
+	fruit - blueberry, aronia. Medium long finish.</description>
+		</wine>
+		<wine name="Karabunar Contour Cabernet Sauvignon &amp; Pinot Noir" winery_id="w01" image="Karabunar_Cabernet">
+			<variety>Cabernet Sauvignon</variety>
+			<year>2016</year>
+			<colour>red</colour>
+			<price>10 lv</price>
+			<description>
+	The wine has a beautiful ruby ​​colour. A fresh nose with notes of raspberry, green leaves and pepper. 
+	Tight, fresh and medium to tight with a slightly spicy finish.</description>
+		</wine>
+		<wine name="Via Vinera Chardonnay &amp; Sauvignon Blanc" winery_id="w01" image="Via_Vinera">
+			<variety>Chardonnay &amp; Sauvignon Blanc</variety>
+			<year>2016</year>
+			<colour>white</colour>
+			<price>16 lv</price>
+			<description>This modern, recent Chardonnay blend and Sauvignon Blanc harmoniously combines the colourful and peach flavors 
+	typical of Chardonnay with gooseberries, grapefruit on the one hand and the live lemon juice of Sauvignon on the other. The taste is soft, mature, 
+	dense and complex with a wonderful citrus finish.</description>
+		</wine>
+		<wine name="Ornament Syrah Reserve" winery_id="w02" image="Ornament_Syrah">
+			<variety>Syrah</variety>
+			<year>2013</year>
+			<colour>red</colour>
+			<price>8 lv - 13.99 lv</price>
+			<description>The wine is characterized by a ruby-red colour. The wine has a complex, captivating aroma of coffee 
+	and black currant. Smooth body, harmonious taste and sweet finish.</description>
+		</wine>
+		<wine name="Reserve" winery_id="w02" image="Reserve_Mavrud">
+			<variety>Mavrud</variety>
+			<year>2013</year>
+			<colour>red</colour>
+			<price>7.45 lv</price>
+			<description>It has a saturated ruby ​​red to red colour. Active nose - a combination of varietal flavor with the aromas of barley-derived carnation,
+	lactone, vanilla and spices. The taste is tight, rounded with good length. The taste aroma is durable and impressive.</description>
+		</wine>
+		<wine name="Domaine Boyar Rue Romance Sauvignon Blanc" winery_id="w03" image="RueRomance_SBlanc">
+			<variety>Sauvignon Blanc</variety>
+			<year>2016</year>
+			<colour>white</colour>
+			<price>10 lv</price>
+			<description>The wine is green in colour, bright and clear. Fresh and citrus-like nose with notes of grapefruit and 
+	gooseberry. Light to medium body, harmonious and enjoyable to the finish.</description>
+		</wine>
+		<wine name="Domaine Boyar Quantum Rose Pinot Noir &amp; Syrah" winery_id="w03" image="Quantum_PNoir_Syrah">
+			<variety>Sauvignon Blanc</variety>
+			<year>2016</year>
+			<colour>white</colour>
+			<price>9 lv</price>
+			<description>The wine has a sparkling colour - pale pink with gentle orange shades. The nose is intense with notes of 
+	strawberry jam and cotton candy. A fresh, light body with a harmonious finish.</description>
+		</wine>
+		<wine name="Korten Syrah" winery_id="w03 w002" image="Korten_Syrah">
+			<variety>Syrah</variety>
+			<year>2016</year>
+			<colour>red</colour>
+			<price>20 lv</price>
+			<description>The wine has a dense, purple colour. The nose is juicy, mature, attractive and smoky with notes of smoke and meat, sweet spices, baked prunes in chocolate and warm earthly shades. 
+	Medium as a structure, flexible and juicy in the mouth with very well matured tannins and a long, fruity and sweet finish.</description>
+		</wine>
+		<wine name="Midalidare Mogilovo Village Cabernet Sauvignon &amp; Merlot &amp; Petit Verdot" winery_id="w04" image="Midalidare_CS_Merlo_PVerdot">
+			<variety>Cabernet Sauvignon &amp; Merlot &amp; Petit Verdot</variety>
+			<year>2015</year>
+			<colour>red</colour>
+			<price>20 lv</price>
+			<description>The wine has a rich, dense purple colour. Attractive nose with notes of lime colour, vanilla, coffee and 
+	cherry liqueur. Medium body, crisp and harmonious with still dominating oak accents in taste that remain in the finish.
+	Attractive wine that can be drunk at the moment, but can also mature.</description>
+		</wine>
+		<wine name="Midalidare Calista Mogilovo Single Vineyard Chardonnay" winery_id="w04" image="Calista_Chardonnay">
+			<variety>Chardonnay</variety>
+			<year>2015</year>
+			<colour>white</colour>
+			<price>30 lv</price>
+			<description>The wine has a rich golden colour with preserved fresh green glow. The nose is intense with notes of coffee,
+	ethereal notes, ripe citrus and spices. Bulky body, tight with a still "young" oak, but with an attractive and long 
+	finish.</description>
+		</wine>
+		<wine name="Midalidare Sees Rose" winery_id="w04" image="Sees_Rose">
+			<variety>Sees Rose</variety>
+			<year>2016</year>
+			<colour>rose</colour>
+			<price>15 lv</price>
+			<description>The wine has a fresh and beautiful, strawberry pink colour. Sweet nose with notes of caramel and strawberry
+	jam, on the second side - light earthly notes. Luscious body, juicy and fruity, with well preserved freshness and a long,
+	refreshing finish.</description>
+		</wine>
+		<wine name="Gold Stallion" winery_id="w05" image="Angel_GoldStallion">
+			<variety>Cabernet Sauvignon, Merlot, Pete Verde</variety>
+			<year>2013</year>
+			<colour>red</colour>
+			<price>139.90 lv</price>
+			<description>Very intensive to the nose, like a bouquet of dry herbs, leather, hot black chocolate and delicate oak.Powerful and harmonic taste.The soft start turns into explosion of flavours 
+dominated by pepper and liquor.Long aromatic aftertaste and elegant finish.</description>
+		</wine>
+		<wine name="Deneb Cabernet Franc" winery_id="w05" image="Angel_Deneb">
+			<variety>Cabernet Franc</variety>
+			<year>2013</year>
+			<colour>red</colour>
+			<price>37.50 lv</price>
+			<description>The wine carries the usual aromas of mint and spices embraced by warm shades of mature berries.The taste of "Deneb Cabernet Franc" is mature,noble and balanced.The explosion of flavours continues until reaching a memorable finish.</description>
+		</wine>
+		<wine name="Angel Rose" winery_id="w05" image="Angel_Rose">
+			<variety>Cabernet Sauvignon, Merlot, Syrah</variety>
+			<year>2015</year>
+			<colour>rose</colour>
+			<price>11 lv</price>
+			<description>Wine with delicate pale pink colour and lunar glow. Fresh taste with 
+fruity notes of small berries and white flowers.The harmony in its taste is accompanied by a long and fresh finish.</description>
+		</wine>
+		<wine name="Cattleya Sauvignon Blanc &amp; Chardonnay" winery_id="w05" image="Cattleya_SB_Chardonnay">
+			<variety>Sauvignon Blanc, Chardonnay</variety>
+			<year>2015</year>
+			<colour>white</colour>
+			<price>9 lv</price>
+			<description>"Cattleya Sauvignon Blanc &amp; Chardonnay" delights with a sparkling moon colour with vibrant greenish highlights.The wine combines fresh summer flavours of citrus and exotic fruits, juicy peach, cotton candy and flowers.This richness of flavours also combines with overtones of lemon freshness.</description>
+		</wine>
+		<wine name="Logodaj Viognier" winery_id="w06" image="Viognier">
+			<variety>Viognier</variety>
+			<year>2015</year>
+			<colour>white</colour>
+			<price>7.69 lv</price>
+			<description>Made of fully ripe grapes from vineyards in Melnik region, the Struma River Valley.The aroma is elegant with a bouquet of ripe tropical fruits and vine leaves in combination with thick, dry, soft and fruity taste.Long and lingering finish.Tastes good with chicken,salads and fish.</description>
+		</wine>
+		<wine name="Shiroka Melnishka loza" winery_id="w06" image="Melnishka_Loza">
+			<variety>Broad leaved melnik vine</variety>
+			<year>2015</year>
+			<colour>red</colour>
+			<price>4,66 lv</price>
+			<description>Broad leaved melnik vine is a unique grape variety found only in the Struma River valley.It is believed that this grape variety is spread on these places 2000 years ago by the soldiers of Alexander the Great.After fermentation the wine ages 3 months in French oak barrels, in order to make it dry, with a dark ruby colour and with the aromas of wild black cherries, exotic spices and vanilla. </description>
+		</wine>
+		<wine name="Nobile Rose" winery_id="w06" image="Nobile_Rose">
+			<variety>Broad leaved melnik vine</variety>
+			<year>2016</year>
+			<colour>rose</colour>
+			<price>9.49 lv</price>
+			<description>The colour is brilliant, typical of rosé."Nobile Rose" is an elegant wine with rich fruit aromas and a note of freshness, perfect for the summer.Fascinating in a different bottle.The taste is well balanced, rounded, with a memorable finish.</description>
+		</wine>
+		<wine name="Bijoux" winery_id="w06" image="Bijoux">
+			<variety>Sauvignon blanc, Semilion, Chardonnay</variety>
+			<year>2016</year>
+			<colour>white</colour>
+			<price>8.90 lv</price>
+			<description>The wine has a pale yellow colour with greenish hues.It is a combination of floral and fruity flavors that transform into an elegant and very fine taste with a well-balanced freshness.It has a long finish with a memory of a jewel.</description>
+		</wine>
+		<wine name="Aplauz Merlot" winery_id="w07" image="Aplauz_Merlot">
+			<variety>Merlot</variety>
+			<year>2013</year>
+			<colour>red</colour>
+			<price>15 lv</price>
+			<description>Made of carefully selected grapes aged 15 months in Bulgarian oak barrels. Deep, saturated ruby colour.The aroma reminds of toasted rape blue plum with spicy chocolate notes.</description>
+		</wine>
+		<wine name="Bergule Cuvee" winery_id="w07" image="Bergule_Cuvee">
+			<variety>Cabernet Sauvignon, Syrah, Merlot</variety>
+			<year>2012</year>
+			<colour>red</colour>
+			<price>10.80 lv</price>
+			<description>The wine aged 12 months in Bulgarian oak barrels.It has aromas of smoke, spices, roast meat, roasted black fruits with chocolate and noble earthy tones.Juicy, elegant and live taste with excellent freshness and balance.</description>
+		</wine>
+		<wine name="Family Tradition Melnik" winery_id="w07" image="Family_Tradition">
+			<variety>Broad leaved melnik vine</variety>
+			<year>2013</year>
+			<colour>red</colour>
+			<price>12 lv</price>
+			<description>Ruby red sparkling colour and aromas of cherry leaves, mowed grass and roasted red fruits. Light body with bright freshness.Tastes good with pasta, cheese, pork with cream sauces, lamb with tomato sauce.</description>
+		</wine>
+		<wine name="Young&amp;Crazy" winery_id="w07" image="Young_Crazy">
+			<variety>Melnik 55, Merlot, Syrah</variety>
+			<year>2017</year>
+			<colour>red</colour>
+			<price>7.50 lv</price>
+			<description>The first wine of the new harvest.Fruity and fresh, perfect for young people and for those with young spirit. Tastes good with cheese, spicy foods and venison.</description>
+		</wine>
+		<wine name="Salla Estate Riesling Barrel Aged" winery_id="w08" image="Riesling_Barrel_Aged">
+			<variety>Riesling</variety>
+			<year>2012</year>
+			<colour>white</colour>
+			<price>20 lv</price>
+			<description>Rich and noble wine, aged in French oak barrels.The taste is balanced with soft shades of vanilla, butter and baked oak.Tastes good with chicken, cheese, desserts and fish.</description>
+		</wine>
+		<wine name="Salla Estate Chardonnay" winery_id="w08" image="Chardonnay">
+			<variety>Chardonnay</variety>
+			<year>2015</year>
+			<colour>white</colour>
+			<price>21 lv</price>
+			<description>Wine with sparkling pale yellow colour with green shades. It has multi-layered aroma which combines 
+exotic flowers, citrus notes, pineapple and banana.Its taste is well-balanced with elegant flexible body, good freshness and a delicate finish.</description>
+		</wine>
+	</wines>
+</catalog>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT catalog (regions, wineries, wines)>
+<!ELEMENT regions (region+)>
+<!ELEMENT wineries (winery+)>
+<!ELEMENT wines (wine+)>
+<!ELEMENT region (name)>
+<!ELEMENT winery (name, year, vineyards, location, owner+, wine_maker+, brand+, branch*, annual_production?)>
+<!ELEMENT wine (variety, year, colour, price, description)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT vineyards (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT owner (#PCDATA)>
+<!ELEMENT wine_maker (#PCDATA)>
+<!ELEMENT brand (#PCDATA)>
+<!ELEMENT branch (year, description)>
+<!ELEMENT annual_production (#PCDATA)>
+<!ELEMENT variety (#PCDATA)>
+<!ELEMENT colour (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+
+
+<!ATTLIST region
+	id ID #REQUIRED
+>
+<!ATTLIST winery
+	id ID #REQUIRED
+	region_id IDREF #REQUIRED
+	image ENTITY #REQUIRED
+	logo ENTITY #REQUIRED
+>
+<!ATTLIST branch
+	name CDATA #REQUIRED
+	id ID #REQUIRED
+	winery_id IDREF #FIXED "w03"
+>
+<!ATTLIST wine
+	name CDATA #REQUIRED
+	winery_id IDREFS #REQUIRED
+	image ENTITY #REQUIRED
+>
+
+
+
+
+<!NOTATION JPG PUBLIC "jpg">
+<!NOTATION PNG PUBLIC "PNG 1.0" "png">
+<!NOTATION SVG PUBLIC "svg">
+
+<!ENTITY karabunar_winery SYSTEM "http://www.bulgarianwine.net/sites/default/files/styles/bootstrap3_col11/public/Karabunar%20Winery.jpg?itok=iNF2RU66" 
+NDATA JPG>
+<!ENTITY karabunar_logo SYSTEM "http://www.bulgarianwine.net/sites/default/files/styles/bootstrap3_col12/public/Karabunar%20logo.jpg?itok=eIvTZLCq"
+NDATA JPG>
+<!ENTITY asenovgrad_winery SYSTEM "http://mavrud.com/sites/default/files/inline-images/winery1.jpg" NDATA JPG>
+<!ENTITY asenovgrad_logo SYSTEM "http://mavrud.com/themes/wine/logo-bg.png" NDATA PNG>
+<!ENTITY domaineBoyar_winery SYSTEM "http://rosewine-expo.com/wp-content/uploads/2016/04/Domaine-Boyar-logo.jpg" NDATA JPG>
+<!ENTITY domaineBoyar_logo SYSTEM "http://domaineboyar.com/assets/images/logo.svg" NDATA SVG>
+<!ENTITY midalidare_winery SYSTEM "http://midalidare.bg/slides/11.jpg" NDATA JPG>
+<!ENTITY midalidare_logo SYSTEM "http://midalidare.bg/images/logo.png" NDATA PNG>
+<!ENTITY angelEstate_winery SYSTEM "http://enosiasti.bg/resources/12_Angelus_Estate_Architecture.jpg" NDATA JPG>
+<!ENTITY angelEstate_logo SYSTEM "http://www.divino.bg/sites/default/files/imagecache/tall_thumb/AE%20logo.png" NDATA PNG>
+<!ENTITY logodaj_winery SYSTEM "http://www.logodajwinery.com/sites/default/files/gallery/logodaj-winery-20.jpg" NDATA JPG>
+<!ENTITY logodaj_logo SYSTEM "http://www.logodajwinery.com/sites/all/themes/logodaj/images/logodaj-logo.png" NDATA PNG>
+<!ENTITY melnik_winery SYSTEM "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Villa_melnik_winery.jpg/800px-Villa_melnik_winery.jpg" NDATA JPG>
+<!ENTITY melnik_logo SYSTEM "http://wineanddrinks.eu/wp-content/uploads/2013/11/logogoldtransparent.png" NDATA PNG>
+<!ENTITY sallaEstate_winery SYSTEM "http://www.bulgarianwine.net/sites/default/files/styles/bootstrap3_col11/public/Salla%20Estate%20Winery.jpg?itok=MbIUgfPM" NDATA JPG>
+<!ENTITY sallaEstate_logo SYSTEM "http://vinoshop.bg/userfiles/brand/image_50b6186642202a864a0c66ffe4080623.jpg" NDATA JPG>
+<!ENTITY BG_Heritage_Mavrud SYSTEM "https://bulgaarsetopwijnen.be/image/cache/catalog/fotoswijnen/Bulgarian%20Heritage%20Mavrud%202015-300x300.png" NDATA PNG>
+<!ENTITY Karabunar_Cabernet SYSTEM "http://bulgarian-heritage.com/products/p29348/1_p29348.png" NDATA PNG>
+<!ENTITY Via_Vinera SYSTEM "http://bulgarian-heritage.com/products/p35673/1_p35673.png" NDATA PNG>
+<!ENTITY Ornament_Syrah SYSTEM "http://mavrud.com/sites/default/files/styles/product_page/public/products/Syrah.jpg?itok=3RF_gcLb" NDATA JPG>
+<!ENTITY Reserve_Mavrud SYSTEM "http://mavrud.com/sites/default/files/styles/product_page/public/products/mavrud_0.jpg?itok=rfXNKnzm" NDATA JPG>
+<!ENTITY RueRomance_SBlanc SYSTEM "http://www.novjivot.info/wp-content/uploads/2016/05/vino-4.jpg" NDATA JPG>
+<!ENTITY Quantum_PNoir_Syrah SYSTEM "https://s.winestyle.ru/images_gen/61727/0_0_orig.jpg" NDATA JPG>
+<!ENTITY Korten_Syrah SYSTEM "http://www.sid-shop.com/wp-content/uploads/2014/12/KORTEN-SYRAH.png" NDATA PNG>
+<!ENTITY Midalidare_CS_Merlo_PVerdot SYSTEM "http://shop.midalidare.bg/cms/user/products/385/cover1.jpg" NDATA JPG>
+<!ENTITY Calista_Chardonnay SYSTEM "http://shop.midalidare.bg/product_thumb_284_0.jpg" NDATA JPG>
+<!ENTITY Sees_Rose SYSTEM "http://shop.midalidare.bg/product_thumb_383_0.jpg" NDATA JPG>
+<!ENTITY Angel_GoldStallion SYSTEM "http://www.vinobg.com/images/Gold-Stallion-2013.jpg" NDATA JPG>
+<!ENTITY Angel_Deneb SYSTEM "http://www.bestwine.bg/media/catalog/product/cache/2/image/650x/040ec09b1e35df139433887a97daa66f/d/e/deneb_cf.jpg" NDATA JPG>
+<!ENTITY Angel_Rose SYSTEM "http://www.angelsestatebg.com/uploads/images/thumb_388fb50351e75ffe480e1ce14bbff983bde3058b.png" NDATA PNG>
+<!ENTITY Cattleya_SB_Chardonnay SYSTEM "http://www.angelsestatebg.com/uploads/images/thumb_579acbd5a81b10af962f9cbfba8c6bb67a213c5d.png" NDATA PNG>
+<!ENTITY Viognier SYSTEM "http://www.logodajwinery.com/sites/default/files/styles/wine-current/public/wines/logodajviognier2015.png?itok=q7ywu3bC" NDATA PNG>
+<!ENTITY Melnishka_Loza SYSTEM "http://www.logodajwinery.com/sites/default/files/styles/wine-current/public/wines/shirokamelnishkaloza2_1.png?itok=bDhudqHr" NDATA PNG>
+<!ENTITY Nobile_Rose SYSTEM "http://www.logodajwinery.com/sites/default/files/styles/wine-current/public/wines/nobilerose_1.png?itok=-wdkbxAM" NDATA PNG>
+<!ENTITY Bijoux SYSTEM "http://www.logodajwinery.com/sites/default/files/styles/wine-current/public/wines/bijoux2014preview.png?itok=sLwCCRy0" NDATA PNG>
+<!ENTITY Aplauz_Merlot SYSTEM "http://www.meik98wines.com/img/OBIAVI/BIG_IMG_135912606814568.jpg" NDATA JPG>
+<!ENTITY Bergule_Cuvee SYSTEM "http://www.meik98wines.com/img/OBIAVI/BIG_IMG_145459833619886.jpg" NDATA JPG>
+<!ENTITY Family_Tradition SYSTEM "http://villamelnik.com/wp-content/uploads/2016/02/family-tradition-melnik-2013.png" NDATA PNG>
+<!ENTITY Young_Crazy SYSTEM "http://villamelnik.com/wp-content/uploads/2016/05/YoungCrazy-2016.jpg" NDATA JPG>
+<!ENTITY Riesling_Barrel_Aged SYSTEM "https://salla.bg/wp-content/uploads/2017/05/SALLA-katalog-BG_EN2017-Riesling-Barrel-Aged.jpg" NDATA JPG>
+<!ENTITY Chardonnay SYSTEM "https://salla.bg/images/vinapng/thumb3_chardonnay_2_size_2.png" NDATA PNG>
